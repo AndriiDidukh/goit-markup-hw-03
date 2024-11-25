@@ -115,6 +115,12 @@ address {
 
 .hero-image {
     background-color: #2e2f42;
+    padding: 188px 0;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: inline-block;
 }
 
 .page-title {
@@ -124,6 +130,8 @@ address {
     font-weight: bold;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .order-service-button {
@@ -138,12 +146,32 @@ address {
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .order-service-button:hover,
 .order-service-button:focus,
 .order-service-button:active {
     background-color: #404bbf;
+}
+
+.features-section {
+    padding: 120px 0;
+}
+
+.features {
+    display: flex;
+    gap: 24px;
+}
+
+.feature {
+    width: calc((100%-72px) / 4);
 }
 
 .feature-name {
@@ -153,6 +181,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
+    margin-bottom: 8px;
 }
 
 .feature-description {
