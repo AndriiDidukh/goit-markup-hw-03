@@ -1,0 +1,245 @@
+:root {
+    --footer-text-color: #f4f4fd;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    display: block;
+}
+
+address {
+    font-style: normal;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: inline-block;
+    width: 1440px;
+    height: 72px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    color: #e7e9fc;
+}
+
+.header-logo {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+    width: Hug (115px) px;
+    height: Fixed (24px) px;
+    margin-top: 24px;
+    margin-left: 156px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.logo-part {
+    color: #2e2f42;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    color: #2e2f42;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-item:hover,
+.menu-item:focus,
+.menu-item:active {
+    color: #404bbf;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+}
+
+.contact-info {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contact-info:hover,
+.contact-info:focus,
+.contact-info:active {
+    color: #404bbf;
+}
+
+.hero-image {
+    background-color: #2e2f42;
+}
+
+.page-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.order-service-button {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+
+.order-service-button:hover,
+.order-service-button:focus,
+.order-service-button:active {
+    background-color: #404bbf;
+}
+
+.feature-name {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.feature-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.team-section {
+    background-color: #f4f4fd;
+}
+
+.team-header {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-card {
+    background-color: #ffffff;
+}
+
+.team-member {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-role {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-text {
+    color: var(--footer-text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.white-logo-part {
+    color: #f4f4fd;
+}
+
+.portfolio-section-header {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.portfolio-header {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
