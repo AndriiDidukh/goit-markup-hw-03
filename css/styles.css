@@ -128,6 +128,7 @@ address {
     letter-spacing: 0.02em;
     max-width: 496px;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .order-service-button {
@@ -218,6 +219,7 @@ address {
 
 .team-cards {
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 
@@ -250,6 +252,7 @@ address {
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -263,16 +266,46 @@ address {
     text-decoration: none;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
     color: var(--footer-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
+}
+
+.footer-container {
+    margin-left: 156px;
 }
 
 .white-logo-part {
     color: #f4f4fd;
+}
+
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-item {
+    width: calc((100%-48px) / 3);
+}
+
+.portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-section-header {
@@ -283,6 +316,7 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio-header {
@@ -292,6 +326,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
