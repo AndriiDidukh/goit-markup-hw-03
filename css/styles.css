@@ -6,8 +6,6 @@ body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #ffffff;
-    width: 1440px;
-    margin: 0 auto;
 }
 
 h1,
@@ -42,6 +40,11 @@ address {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.site-container {
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .header {
