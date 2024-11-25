@@ -6,6 +6,8 @@ body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #ffffff;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 h1,
@@ -24,7 +26,8 @@ ul {
     padding-left: 0;
 }
 
-a {
+a,
+img {
     display: block;
 }
 
@@ -32,18 +35,22 @@ address {
     font-style: normal;
 }
 
-.container {
-    width: 1440px;
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header {
-    display: inline-block;
-    width: 1440px;
-    height: 72px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    color: #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -57,13 +64,7 @@ address {
     text-decoration: none;
     text-transform: uppercase;
     color: #4d5ae5;
-
-    width: Hug (115px) px;
-    height: Fixed (24px) px;
-    margin-top: 24px;
-    margin-left: 156px;
-    gap: 0px;
-    opacity: 0px;
+    margin-right: 76px;
 }
 
 .logo-part {
@@ -72,6 +73,7 @@ address {
 
 .menu {
     display: flex;
+    gap: 40px;
 }
 
 .menu-item {
@@ -81,6 +83,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .menu-item:hover,
@@ -92,7 +95,7 @@ address {
 .address {
     display: flex;
     align-items: center;
-    font-style: normal;
+    gap: 40px;
 }
 
 .contact-info {
