@@ -6,8 +6,6 @@ body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #ffffff;
-    margin: 0 auto;
-    width: 1440px;
 }
 
 h1,
@@ -42,6 +40,13 @@ address {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .header {
@@ -160,8 +165,6 @@ address {
 
 .features-section {
     padding: 120px 0;
-    width: 1128px;
-    margin: 0 auto;
 }
 
 .visually-hidden {
@@ -279,10 +282,6 @@ address {
     max-width: 264px;
 }
 
-.footer-container {
-    margin-left: 156px;
-}
-
 .white-logo-part {
     color: #f4f4fd;
 }
@@ -290,8 +289,6 @@ address {
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
-    width: 1128px;
-    margin: 0 auto;
 }
 
 .portfolio-items {
